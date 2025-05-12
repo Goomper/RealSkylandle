@@ -1,0 +1,78 @@
+body {
+    background-image: url('../ALLSkylanders-ezgif.com-speed.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-size: 2rem;
+}
+
+.WinBox {
+    display: grid;
+    border-width: 5px;
+
+    grid-template-areas: "guess" "guess";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    height: 50vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-bottom: 30vh;
+    padding-top: 20vh;
+
+    justify-items: center;
+    align-items: center;
+}
+
+.WinText1 {
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    border-width: 5px;
+    border-top-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-width: 3px;
+    background-color: lightgoldenrodyellow;
+}
+
+.WinText2 {
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-width: 3px;
+    background-color: lightgoldenrodyellow;
+}
+
+.AgainButton {
+    display: grid;
+
+    justify-items: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+
+    border-width: 5px;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-style: solid;
+
+    border-width: 3px;
+    background-color: lightgoldenrodyellow;
+}

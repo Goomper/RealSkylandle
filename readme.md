@@ -1,0 +1,2 @@
+This is a site that is called Skylandle. All of the characters belong to skylanders that's made by Toys For Bob and owned by Microsoft. I don't own any rights of the characters but recommend the games. The background is also not mine and was made by MrRollingCircle on reddit https://www.reddit.com/user/MrRollingCircle/. 
+That is all I hope you enjoy this wordle-ish game about skylanders.

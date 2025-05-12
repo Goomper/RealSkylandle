@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/skylandle.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.14.1/themes/base/jquery-ui.css">
+    <title>Skylandle</title>
+</head>
+<body>
+    <div class="background"></div>
+    <div id="rightcorner" class="rightcorner">
+        <div id="menu" class="menu">
+            <button class="resetbutton" id="resetbutton">
+                reset
+            </button>
+            <button class="seriesbutton" id="seriesbutton">
+                series
+            </button>
+            <button class="chasebutton" id="chasebutton">
+                chase
+            </button>
+        </div>
+    </div>
+    <div id="menubuttonpos" class="menubuttonpos">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <script src="/script.js" type="module"></script>
+    </div>
+    <div class="container" id="container">
+        <div class="Header">
+            <p class="headertext">Skylandle</p>
+        </div>
+        <div class="Guessbar">
+            <div class="GuessBox" id="GuessBox">
+                <form  action="/" method="get">
+                    Type Guess Here:
+                    <input name="Guess" type="text" id="Guess">
+                    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+                    <script src="https://code.jquery.com/ui/1.14.1/jquery-ui.js"></script>
+                    <script>
+                    $(function () {
+                        // Load JSON dynamically (tried fetch())
+                        $.getJSON('skylanders.json', function(data) {
+                            // Extract just the names for autocomplete
+                            var availableTags = data.map(function(item) {
+                                return item.name;
+                            });
+
+                            $("#Guess").autocomplete({
+                                source: availableTags
+                            });
+                        }).fail(function() {
+                            console.error("Failed to load skylanders.json");
+                        });
+                    });
+                    </script>
+                </form>
+            </div>
+        </div>
+        <div class="BoxRows" id="BoxRows">
+            
+        </div>
+        <div class="Footer">
+            <p>Footer</p>
+        </div>
+    </div>
+</body>
+</html>

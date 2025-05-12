@@ -1,0 +1,1840 @@
+[
+  {
+    "id": 1,
+    "name": "Bash",
+    "game": "SSA",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Bash.webp)"
+  },
+  {
+    "id": 2,
+    "name": "Boomer",
+    "game": "SSA",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Boomer.webp)"
+  },
+  {
+    "id": 3,
+    "name": "Camo",
+    "game": "SSA",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Camo.webp)"
+  },
+  {
+    "id": 4,
+    "name": "Chop_Chop",
+    "game": "SSA",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Chop_Chop.webp)"
+  },
+  {
+    "id": 5,
+    "name": "Cynder",
+    "game": "SSA",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Cynder.webp)"
+  },
+  {
+    "id": 6,
+    "name": "Dino_Rang",
+    "game": "SSA",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Dino_Rang.webp)"
+
+  },
+  {
+    "id": 7,
+    "name": "Double_Trouble",
+    "game": "SSA",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Double_Trouble.webp)"
+  },
+  {
+    "id": 8,
+    "name": "Drill_Sergeant",
+    "game": "SSA",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Drill_Sergeant.webp)"
+  },
+  {
+    "id": 9,
+    "name": "Drobot",
+    "game": "SSA",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Drobot.webp)"
+  },
+  {
+    "id": 10,
+    "name": "Eruptor",
+    "game": "SSA",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null,
+    "image": "url(/SkylanderImg/Eruptor.webp)"
+  },
+  {
+    "id": 11,
+    "name": "Flameslinger",
+    "game": "SSA",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 12,
+    "name": "Ghost_Roaster",
+    "game": "SSA",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 13,
+    "name": "Gill_Grunt",
+    "game": "SSA",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 14,
+    "name": "Hex",
+    "game": "SSA",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 15,
+    "name": "Ignitor",
+    "game": "SSA",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 16,
+    "name": "Lightning_Rod",
+    "game": "SSA",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 17,
+    "name": "Prism_Break",
+    "game": "SSA",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 18,
+    "name": "Slam_Bam",
+    "game": "SSA",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 19,
+    "name": "Sonic_Boom",
+    "game": "SSA",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 20,
+    "name": "Spyro",
+    "game": "SSA",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 21,
+    "name": "Stealth_Elf",
+    "game": "SSA",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 22,
+    "name": "Stump_Smash",
+    "game": "SSA",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 23,
+    "name": "Sunburn",
+    "game": "SSA",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 24,
+    "name": "Terrafin",
+    "game": "SSA",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 25,
+    "name": "Trigger_Happy",
+    "game": "SSA",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 26,
+    "name": "Voodood",
+    "game": "SSA",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 27,
+    "name": "Warnado",
+    "game": "SSA",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 28,
+    "name": "Wham_Shell",
+    "game": "SSA",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 29,
+    "name": "Whirlwind",
+    "game": "SSA",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 30,
+    "name": "Wrecking_Ball",
+    "game": "SSA",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 31,
+    "name": "Zap",
+    "game": "SSA",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 32,
+    "name": "Zook",
+    "game": "SSA",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 33,
+    "name": "Bouncer",
+    "game": "SG",
+    "element": "Tech",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 34,
+    "name": "Crusher",
+    "game": "SG",
+    "element": "Earth",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 35,
+    "name": "Eye_Brawl",
+    "game": "SG",
+    "element": "Undead",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 36,
+    "name": "Hot_Head",
+    "game": "SG",
+    "element": "Fire",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 37,
+    "name": "Ninjini",
+    "game": "SG",
+    "element": "Magic",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 38,
+    "name": "Swarm",
+    "game": "SG",
+    "element": "Air",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 39,
+    "name": "Thumpback",
+    "game": "SG",
+    "element": "Water",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 40,
+    "name": "Tree_Rex",
+    "game": "SG",
+    "element": "Life",
+    "series": "1",
+    "type": "giant",
+    "chase": null
+  },
+  {
+    "id": 41,
+    "name": "Chill",
+    "game": "SG",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 42,
+    "name": "Flashwing",
+    "game": "SG",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 43,
+    "name": "Fright_Rider",
+    "game": "SG",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 44,
+    "name": "Hot_Dog",
+    "game": "SG",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 45,
+    "name": "Jet_Vac",
+    "game": "SG",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 46,
+    "name": "Pop_Fizz",
+    "game": "SG",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 47,
+    "name": "Shroomboom",
+    "game": "SG",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 48,
+    "name": "Sprocket",
+    "game": "SG",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 49,
+    "name": "Blast_Zone",
+    "game": "SSF",
+    "element": "Fire",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 50,
+    "name": "Boom_Jet",
+    "game": "SSF",
+    "element": "Air",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 51,
+    "name": "Doom_Stone",
+    "game": "SSF",
+    "element": "Earth",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 52,
+    "name": "Fire_Kraken",
+    "game": "SSF",
+    "element": "Fire",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 53,
+    "name": "Free_Ranger",
+    "game": "SSF",
+    "element": "Air",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 54,
+    "name": "Freeze_Blade",
+    "game": "SSF",
+    "element": "Water",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 55,
+    "name": "Grilla_Drilla",
+    "game": "SSF",
+    "element": "Life",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 56,
+    "name": "Hoot_Loop",
+    "game": "SSF",
+    "element": "Magic",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 57,
+    "name": "Magna_Charge",
+    "game": "SSF",
+    "element": "Tech",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 58,
+    "name": "Night_Shift",
+    "game": "SSF",
+    "element": "Undead",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 59,
+    "name": "Rattle_Shake",
+    "game": "SSF",
+    "element": "Undead",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 60,
+    "name": "Rubble_Rouser",
+    "game": "SSF",
+    "element": "Earth",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 61,
+    "name": "Spy_Rise",
+    "game": "SSF",
+    "element": "Tech",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 62,
+    "name": "Stink_Bomb",
+    "game": "SSF",
+    "element": "Life",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 63,
+    "name": "Trap_Shadow",
+    "game": "SSF",
+    "element": "Magic",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 64,
+    "name": "Wash_Buckler",
+    "game": "SSF",
+    "element": "Water",
+    "series": "1",
+    "type": "swap",
+    "chase": null
+  },
+  {
+    "id": 65,
+    "name": "Bumble_Blast",
+    "game": "SSF",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 66,
+    "name": "Countdown",
+    "game": "SSF",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 67,
+    "name": "Dune_Bug",
+    "game": "SSF",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 68,
+    "name": "Fryno",
+    "game": "SSF",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 69,
+    "name": "Grim_Creeper",
+    "game": "SSF",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 70,
+    "name": "Pop_Thorn",
+    "game": "SSF",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 71,
+    "name": "Punk_Shock",
+    "game": "SSF",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 72,
+    "name": "Rip_Tide",
+    "game": "SSF",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 73,
+    "name": "Roller_Brawl",
+    "game": "SSF",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 74,
+    "name": "Scorp",
+    "game": "SSF",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 75,
+    "name": "Scratch",
+    "game": "SSF",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 76,
+    "name": "Slobber_Tooth",
+    "game": "SSF",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 77,
+    "name": "Smolderdash",
+    "game": "SSF",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 78,
+    "name": "Star_Strike",
+    "game": "SSF",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 79,
+    "name": "Wind_Up",
+    "game": "SSF",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 80,
+    "name": "Zoo_Lou",
+    "game": "SSF",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 81,
+    "name": "Blastermind",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 82,
+    "name": "Bushwhack",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 83,
+    "name": "Enigma",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 84,
+    "name": "Gearshift",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 85,
+    "name": "Gusto",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 86,
+    "name": "Head_Rush",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 87,
+    "name": "Jawbreaker",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 88,
+    "name": "Ka_Boom",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 89,
+    "name": "Knight_Light",
+    "game": "STT",
+    "element": "Light",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 90,
+    "name": "Knight_Mare",
+    "game": "STT",
+    "element": "Dark",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 91,
+    "name": "Krypt_King",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 92,
+    "name": "Lob_Star",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 93,
+    "name": "Short_Cut",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 94,
+    "name": "Snap_Shot",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 95,
+    "name": "Thunderbolt",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 96,
+    "name": "Tuff_Luck",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 97,
+    "name": "Wallop",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 98,
+    "name": "Wildfire",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "master",
+    "chase": null
+  },
+  {
+    "id": 99,
+    "name": "Bat_Spin",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 100,
+    "name": "Blackout",
+    "game": "STT",
+    "element": "Dark",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 101,
+    "name": "Blades",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 102,
+    "name": "Chopper",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 103,
+    "name": "Cobra_Cadabra",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 104,
+    "name": "Deja_Vu",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 105,
+    "name": "Echo",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 106,
+    "name": "Fist_Bump",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 107,
+    "name": "Fling_Kong",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 108,
+    "name": "Flip_Wreck",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 109,
+    "name": "Food_Fight",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 110,
+    "name": "Funny_Bone",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 111,
+    "name": "High_Five",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 112,
+    "name": "Rocky_Roll",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 113,
+    "name": "Spotlight",
+    "game": "STT",
+    "element": "Light",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 114,
+    "name": "Torch",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 115,
+    "name": "Trail_Blazer",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 116,
+    "name": "Tread_Head",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "core",
+    "chase": null
+  },
+  {
+    "id": 117,
+    "name": "Barkley",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 118,
+    "name": "Bop",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 119,
+    "name": "Breeze",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 120,
+    "name": "Drobit",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 121,
+    "name": "Eye_Small",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 122,
+    "name": "Gill_Runt",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 123,
+    "name": "Hijinx",
+    "game": "STT",
+    "element": "Undead",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 124,
+    "name": "Mini_Jini",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 125,
+    "name": "Pet_Vac",
+    "game": "STT",
+    "element": "Air",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 126,
+    "name": "Small_Fry",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 127,
+    "name": "Spry",
+    "game": "STT",
+    "element": "Magic",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 128,
+    "name": "Terrabite",
+    "game": "STT",
+    "element": "Earth",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 129,
+    "name": "Thumpling",
+    "game": "STT",
+    "element": "Water",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 130,
+    "name": "Trigger_Snappy",
+    "game": "STT",
+    "element": "Tech",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 131,
+    "name": "Weeruptor",
+    "game": "STT",
+    "element": "Fire",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 132,
+    "name": "Whisper_Elf",
+    "game": "STT",
+    "element": "Life",
+    "series": "1",
+    "type": "mini",
+    "chase": null
+  },
+  {
+    "id": 133,
+    "name": "Astroblast",
+    "game": "SSC",
+    "element": "Light",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 134,
+    "name": "Big_Bubble_Pop_Fizz",
+    "game": "SSC",
+    "element": "Magic",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 135,
+    "name": "Bone_Bash_Roller_Brawl",
+    "game": "SSC",
+    "element": "Undead",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 136,
+    "name": "Deep_Dive_Gill_Grunt",
+    "game": "SSC",
+    "element": "Water",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 137,
+    "name": "Dive_Clops",
+    "game": "SSC",
+    "element": "Water",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 138,
+    "name": "Double_Dare_Trigger_Happy",
+    "game": "SSC",
+    "element": "Tech",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 139,
+    "name": "Fiesta",
+    "game": "SSC",
+    "element": "Undead",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 140,
+    "name": "Hammer_Slam_Bowser",
+    "game": "SSC",
+    "element": "Fire",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 141,
+    "name": "High_Volt",
+    "game": "SSC",
+    "element": "Tech",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 142,
+    "name": "Hurricane_Jet_Vac",
+    "game": "SSC",
+    "element": "Air",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 143,
+    "name": "Lava_Lance_Eruptor",
+    "game": "SSC",
+    "element": "Fire",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 144,
+    "name": "Nightfall",
+    "game": "SSC",
+    "element": "Dark",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 145,
+    "name": "Shark_Shooter_Terrafin",
+    "game": "SSC",
+    "element": "Earth",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 146,
+    "name": "Smash_Hit",
+    "game": "SSC",
+    "element": "Earth",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 147,
+    "name": "Spitfire",
+    "game": "SSC",
+    "element": "Fire",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 148,
+    "name": "Splat",
+    "game": "SSC",
+    "element": "Magic",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 149,
+    "name": "Stormblade",
+    "game": "SSC",
+    "element": "Air",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 150,
+    "name": "Super_Shot_Stealth_Elf",
+    "game": "SSC",
+    "element": "Life",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 151,
+    "name": "Thrillipede",
+    "game": "SSC",
+    "element": "Life",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 152,
+    "name": "Turbo_Charge_Donkey_Kong",
+    "game": "SSC",
+    "element": "Life",
+    "series": "1",
+    "type": "supercharger",
+    "chase": null
+  },
+  {
+    "id": 153,
+    "name": "Barrel_Blaster",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 154,
+    "name": "Burn_Cycle",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 155,
+    "name": "Buzz_Wing",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 156,
+    "name": "Clown_Cruiser",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 157,
+    "name": "Crypt_Crusher",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 158,
+    "name": "Dive_Bomber",
+    "game": "SSC",
+    "element": "Sea",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 159,
+    "name": "Gold_Rusher",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 160,
+    "name": "Hot_Streak",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 161,
+    "name": "Jet_Stream",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 162,
+    "name": "Reef_Ripper",
+    "game": "SSC",
+    "element": "Sea",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 163,
+    "name": "Sea_Shadow",
+    "game": "SSC",
+    "element": "Sea",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 164,
+    "name": "Shark_Tank",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 165,
+    "name": "Shield_Striker",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 166,
+    "name": "Sky_Slicer",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 167,
+    "name": "Soda_Skimmer",
+    "game": "SSC",
+    "element": "Sea",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 168,
+    "name": "Splatter_Splasher",
+    "game": "SSC",
+    "element": "Sea",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 169,
+    "name": "Stealth_Stinger",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 170,
+    "name": "Sun_Runner",
+    "game": "SSC",
+    "element": "Sky",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 171,
+    "name": "Thump_Truck",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 172,
+    "name": "Tomb_Buggy",
+    "game": "SSC",
+    "element": "Land",
+    "series": "1",
+    "type": "vehicle",
+    "chase": null
+  },
+  {
+    "id": 173,
+    "name": "Air_Strike",
+    "game": "SI",
+    "element": "Air",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 174,
+    "name": "Ambush",
+    "game": "SI",
+    "element": "Life",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 175,
+    "name": "Aurora",
+    "game": "SI",
+    "element": "Light",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 176,
+    "name": "Barbella",
+    "game": "SI",
+    "element": "Earth",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 177,
+    "name": "Boom_Bloom",
+    "game": "SI",
+    "element": "Life",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 178,
+    "name": "Buckshot",
+    "game": "SI",
+    "element": "Magic",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 179,
+    "name": "Chain_Reaction",
+    "game": "SI",
+    "element": "Tech",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 180,
+    "name": "Chopscotch",
+    "game": "SI",
+    "element": "Undead",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 181,
+    "name": "Crash_Bandicoot",
+    "game": "SI",
+    "element": "Life",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 182,
+    "name": "Dr.Neo_Cortex",
+    "game": "SI",
+    "element": "Tech",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 183,
+    "name": "Ember",
+    "game": "SI",
+    "element": "Fire",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 184,
+    "name": "Flarewolf",
+    "game": "SI",
+    "element": "Fire",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 185,
+    "name": "King_Pen",
+    "game": "SI",
+    "element": "Water",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 186,
+    "name": "Mysticat",
+    "game": "SI",
+    "element": "Magic",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 187,
+    "name": "Pit_Boss",
+    "game": "SI",
+    "element": "Undead",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 188,
+    "name": "Ro_Bow",
+    "game": "SI",
+    "element": "Tech",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 189,
+    "name": "Starcast",
+    "game": "SI",
+    "element": "Dark",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 190,
+    "name": "Tidepool",
+    "game": "SI",
+    "element": "Water",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 191,
+    "name": "Tri_Tip",
+    "game": "SI",
+    "element": "Earth",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 192,
+    "name": "Wild_Storm",
+    "game": "SI",
+    "element": "Air",
+    "series": "1",
+    "type": "sensei",
+    "chase": null
+  },
+  {
+    "id": 193,
+    "name": "Bad_Juju",
+    "game": "SI",
+    "element": "Air",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 194,
+    "name": "Blaster_Tron",
+    "game": "SI",
+    "element": "Light",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 195,
+    "name": "Chompy_Mage",
+    "game": "SI",
+    "element": "Life",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 196,
+    "name": "Dr.Krankcase",
+    "game": "SI",
+    "element": "Tech",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 197,
+    "name": "Golden_Queen",
+    "game": "SI",
+    "element": "Earth",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 198,
+    "name": "Grave_Clobber",
+    "game": "SI",
+    "element": "Water",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 199,
+    "name": "Hood_Sickle",
+    "game": "SI",
+    "element": "Dark",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 200,
+    "name": "Kaos",
+    "game": "SI",
+    "element": "Kaos",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 201,
+    "name": "Pain_Yatta",
+    "game": "SI",
+    "element": "Magic",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 202,
+    "name": "Tae_Kwon_Crow",
+    "game": "SI",
+    "element": "Fire",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  },
+  {
+    "id": 203,
+    "name": "Wolfgang",
+    "game": "SI",
+    "element": "Undead",
+    "series": "1",
+    "type": "villain",
+    "chase": null
+  }
+]
