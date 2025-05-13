@@ -1,3 +1,4 @@
+import 'dotenv/config'
 import express from 'express'
 import bodyParser from 'body-parser'
 import nunjucks from 'nunjucks'
@@ -77,6 +78,13 @@ app.get("/", async (req, res) => {
 })
 
 app.get("/win", (req, res) => {
+    const guesses = req.session.guesses
+    const currentskylander = req.session.currentSkylander
+    
+    if (guesses[guesses.length - 1].name != currentskylander.name) {
+        return res.redirect("/error")
+    }
+
     let currentSkylander = req.session.currentSkylander
     req.session.views = 0
     req.query.Guess = []
@@ -85,6 +93,10 @@ app.get("/win", (req, res) => {
         current: currentSkylander,
         guesses: req.session.guesses
     })
+})
+
+app.get("/error", (req, res) => {
+    res.render("error.njk")
 })
 
 app.post("/api/guesses", (req, res) => {

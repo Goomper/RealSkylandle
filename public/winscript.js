@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
     const guessresponse = await fetch("/api/guesses")
     const guessdata = await guessresponse.json()
-    const guesses = guessdata.guesses
 
     const currentskylanderresponse = await fetch("/api/currentskylander")
     const currentskylanderdata = await currentskylanderresponse.json()
@@ -10,7 +9,7 @@ document.addEventListener("DOMContentLoaded", async () => {
     const againbutton = document.getElementById("AgainButton")
     againbutton.addEventListener("click", async () => {
         window.location.href = "/"
-        guesses = []
+        guessdata.data = []
         await fetch('/api/guesses', {
             method: 'POST',
             headers: {
