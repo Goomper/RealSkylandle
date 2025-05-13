@@ -50,13 +50,12 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 
         const elementBox = document.createElement("div")
-        elementBox.classList.add("Box")
+        elementBox.classList.add("elementBox")
         BoxRow.appendChild(elementBox);
 
-        const element = document.createElement("p")
-        element.innerText = guess.element
-        element.classList.add("element")
-        elementBox.appendChild(element)
+        const elementOverlay = document.createElement("div")
+        elementOverlay.classList.add("elementOverlay")
+        elementBox.appendChild(elementOverlay)
 
 
         const typeBox = document.createElement("div")
@@ -95,10 +94,12 @@ document.addEventListener("DOMContentLoaded", async () => {
         } else {
             gameBox.style.backgroundColor = "red"
         }
+
+        elementBox.style.backgroundImage = `url(/ElementImg/${guess.element}.webp)`
         if (guess.element === currentskylander.element) {
-            elementBox.style.backgroundColor = "green"
+            elementOverlay.style.backgroundColor = "rgba(0, 255, 0, 0.4)"
         } else {
-            elementBox.style.backgroundColor = "red"
+            elementOverlay.style.backgroundColor = "rgba(255, 0, 0, 0.4)"
         }
         if (guess.type === currentskylander.type) {
             typeBox.style.backgroundColor = "green"

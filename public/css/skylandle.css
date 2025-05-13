@@ -235,6 +235,38 @@ body {
     border-color: black;
 }
 
+.elementBox {
+    display: grid;
+    border-style: solid;
+    border-width: 5px;
+
+    background-size: cover;
+
+    border-radius: 100%;
+
+    justify-self: center;
+    align-self: center;
+    align-content: center;
+    justify-content: center;
+
+    height: 5rem;
+    width: 5rem;
+    border-color: black;
+    
+}
+
+.elementOverlay {
+    display: block;
+    position: absolute;
+
+    border-radius: 100%;
+
+    background-color: rgba(0, 0, 200, 0.5);
+
+    height: inherit;
+    width: inherit;
+}
+
 .Box {
     display: grid;
     border-style: solid;
