@@ -99,6 +99,10 @@ app.get("/acount", (req, res) => {
     res.render("acount.njk")
 })
 
+app.get("/acount/sign-up", (req, res) => {
+    res.render("signin.njk")
+})
+
 app.get("/error", (req, res) => {
     res.render("error.njk")
 })
