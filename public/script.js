@@ -159,4 +159,14 @@ document.addEventListener("DOMContentLoaded", async () => {
         }
         console.log(seriesenabled)
     })
+
+    const sclbutton = document.getElementById("sclbutton")
+    sclbutton.addEventListener("click", async () => {
+        window.open("https://skylanderscharacterlist.com/")
+    })
+
+    const acountbutton = document.getElementById("acountbutton")
+    acountbutton.addEventListener("click", async () => {
+        window.location.href = "../acount"
+    })
 })

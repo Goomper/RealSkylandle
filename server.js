@@ -95,6 +95,10 @@ app.get("/win", (req, res) => {
     })
 })
 
+app.get("/acount", (req, res) => {
+    res.render("acount.njk")
+})
+
 app.get("/error", (req, res) => {
     res.render("error.njk")
 })
