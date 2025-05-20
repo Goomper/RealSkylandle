@@ -4,6 +4,8 @@ import bodyParser from 'body-parser'
 import nunjucks from 'nunjucks'
 import db from './db-sqlite.js'
 import session from 'express-session'
+import bcrypt from 'bcrypt'
+import { createPool } from 'mysql2'
 
 const app = express()
 const port = 3000
@@ -69,18 +71,29 @@ app.get("/", async (req, res) => {
         }
     }
 
+    if (req.session.account) {
+        const [user] = await db.all("SELECT * FROM users WHERE users.username = ?", [req.session.account])
+        console.log(user)
+        console.log("Rounds:" + user.rounds)
+        console.log("Score:" + user.score)
+    }
+    
+
     res.render('skylandle.njk', {
         skylanders: skylanders,
         current: currentSkylander,
         views: req.session.views,
-        guesses: req.session.guesses
+        guesses: req.session.guesses,
+        account: req.session.account
     })
+
+    console.log(req.session.account)
 })
 
-app.get("/win", (req, res) => {
+app.get("/win", async (req, res) => {
     const guesses = req.session.guesses
     const currentskylander = req.session.currentSkylander
-    
+
     if (guesses[guesses.length - 1].name != currentskylander.name) {
         return res.redirect("/error")
     }
@@ -89,18 +102,60 @@ app.get("/win", (req, res) => {
     req.session.views = 0
     req.query.Guess = []
     console.log(currentSkylander)
+
     res.render("winscreen.njk", {
         current: currentSkylander,
         guesses: req.session.guesses
     })
+
+    if (req.session.account) {
+        const user = await db.all(`SELECT * FROM users`)
+        let score = user[0].rounds * user[0].score
+        await db.all(`INSERT INTO users (rounds, score) VALUES (?, ?)`, [user[0].rounds + 1, (score + req.session.guesses.length) / user[0].rounds + 1])
+    }
 })
 
 app.get("/acount", (req, res) => {
     res.render("acount.njk")
 })
 
-app.get("/acount/sign-up", (req, res) => {
+app.get("/acount/signup", (req, res) => {
+    res.render("signup.njk")    
+})
+
+app.post("/acount/signup", async (req, res) => {
+    const username = req.body.username
+    const password = req.body.password
+    const [user] = await db.all('SELECT * FROM users WHERE users.username = ?', [username])
+    if (user) {
+        res.redirect("/acount")
+    }
+    bcrypt.hash(password, 10, async function (err, hash) {
+        await db.all(`INSERT INTO users (username, password, rounds, score) VALUES (?, ?, ?, ?)`, [username, hash, "0", "0"])
+        res.redirect("/")
+    })
+})
+
+app.get("/acount/signin", (req, res) => {
     res.render("signin.njk")
+})
+
+app.post("/acount/signin", async (req, res) => {
+    const username = req.body.username
+    const password = req.body.password
+    const [dbHash] = await db.all('SELECT users.password FROM users WHERE users.username = ?', [username])
+    if (!dbHash) {
+        res.send("Error")
+    }
+    bcrypt.compare(password, dbHash.password, function(err, result) {
+        console.log(result)
+        if (result) {
+            req.session.account = username
+            res.redirect("/")
+        } else {
+            res.send("ERROR")
+        }
+    })
 })
 
 app.get("/error", (req, res) => {

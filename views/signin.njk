@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/signin.css">
     <title>Skylandle</title>
 </head>
 <body>
-    <div class="header">
-        <header>Acounts</header>
+    <div class="container">
+        <div class="head">
+            <p>Sign-In</p>
+        </div>
+        <div class="signin">
+            <form class="signinform" action="/acount/signin" method="POST">
+                <input type="text" name="username" id="username">
+                <input type="password" name="password" id="password">
+                <input type="submit" value="Sign In">
+            </form>
+        </div>
     </div>
 </body>
 </html>

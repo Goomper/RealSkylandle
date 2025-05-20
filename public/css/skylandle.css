@@ -18,10 +18,24 @@
     max-height: 10000000vh;
 
     grid-template-areas: 
-    ". Header Header ." 
+    "account Header Header ." 
     ". Guessbar Guessbar ." 
     ". Boxes Boxes ." 
     ". Footer Footer .";
+}
+
+.account {
+    align-self: center;
+    justify-self: center;
+    grid-area: account;
+    color: black;
+
+    width: 50%;
+    height: 50%;
+
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
 }
 
 body {

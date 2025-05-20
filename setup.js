@@ -10,6 +10,29 @@ const runAsync = promisify(db.run.bind(db));
 
 // Read and parse JSON file
 const skylanders = JSON.parse(await fs.readFile('./public/skylanders.json', 'utf8'));
+const users = JSON.parse(await fs.readFile('./public/users.json', 'utf8'));
+
+async function insertUsers() {
+  await runAsync(`
+    CREATE TABLE IF NOT EXISTS users (
+    id INTEGER PRIMARY KEY,
+    username TEXT,
+    password TEXT,
+    rounds INTEGER,
+    score INTEGER
+    )
+  `);
+
+  for (const u of users) {
+    await runAsync(
+      `INSERT OR REPLACE INTO users (id, username, password, rounds, score)
+      VALUES (?, ?, ?, ?, ?)`,
+      [u.id, u.username, u.password, u.rounds, u.score]
+    );
+  }
+
+  console.log('All Users Inserted');
+}
 
 async function insertSkylanders() {
   // Create the table
@@ -34,12 +57,13 @@ async function insertSkylanders() {
     );
   }
 
-  console.log('All skylanders inserted.');
+  console.log('All Skylanders Inserted');
   db.close();
 }
 
 const setup = () => {
     insertSkylanders().catch(console.error);
+    insertUsers().catch(console.error);
 }
 
 export {setup}

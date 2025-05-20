@@ -13,7 +13,7 @@
         <div class="WinImgSpot">
             
         </div>
-        <p class="WinText2">It was {{ current.name }}</p>
+        <p class="WinText2">It was {{ current.name | replace("_"," ") }}</p>
         <button class="AgainButton" id="AgainButton">Again?</button>
         <script src="./winscript.js"></script>
     </div>

@@ -22,14 +22,13 @@ body {
     font-size: 6rem;
 
     grid-template-rows: 2fr 3fr;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
-    grid-template-areas: ". head head ." ". signin signup .";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: ". head ." ". signin .";
 
 }
 
 .head {
     font-family: PincoyaBlack;
-    font-size: 10rem;
 
     background: -webkit-linear-gradient(rgb(82, 202, 241), rgb(0, 0, 0));
     -webkit-background-clip: text;
@@ -47,29 +46,8 @@ body {
     grid-area: signin;
 }
 
-.signinbutton {
-    width: 8rem;
-    height: 5rem;
-
-    font-family: PincoyaBlack;
-    font-size: 2rem;
-    color: rgb(60, 150, 179);
-}
-
-.signup {
+.signinform {
     display: grid;
 
-    justify-items: center;
-    align-items: center;
-
-    grid-area: signup;
-}
-
-.signupbutton {
-    width: 8rem;
-    height: 5rem;
-
-    font-family: PincoyaBlack;
-    font-size: 2rem;
-    color: rgb(60, 150, 179);
+    grid-template-rows: 1fr 1fr 1fr;
 }
