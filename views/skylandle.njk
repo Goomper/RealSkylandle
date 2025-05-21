@@ -24,8 +24,8 @@
             <button class="chasebutton" id="chasebutton">
                 chase
             </button>
-            <button class="acountbutton" id="acountbutton">
-                acount
+            <button class="accountbutton" id="accountbutton">
+                account
             </button>
         </div>
     </div>
@@ -36,7 +36,17 @@
         <script src="/script.js" type="module"></script>
     </div>
     <div class="container" id="container">
-        <div class="account">{{ account }}</div>
+        <div class="account">
+            <div>
+                User: {{ account.username }}
+            </div>
+            <div>
+                Rounds Played: {{ account.rounds }}
+            </div>
+            <div>
+                Average Score: {{ account.score }}
+            </div>
+        </div>
         <div class="Header">
             <p class="headertext">Skylandle</p>
         </div>

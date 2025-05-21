@@ -71,8 +71,10 @@ app.get("/", async (req, res) => {
         }
     }
 
+    let [user] = ""
+
     if (req.session.account) {
-        const [user] = await db.all("SELECT * FROM users WHERE users.username = ?", [req.session.account])
+        [user] = await db.all("SELECT * FROM users WHERE users.username = ?", [req.session.account])
         console.log(user)
         console.log("Rounds:" + user.rounds)
         console.log("Score:" + user.score)
@@ -84,7 +86,7 @@ app.get("/", async (req, res) => {
         current: currentSkylander,
         views: req.session.views,
         guesses: req.session.guesses,
-        account: req.session.account
+        account: user
     })
 
     console.log(req.session.account)
@@ -103,32 +105,34 @@ app.get("/win", async (req, res) => {
     req.query.Guess = []
     console.log(currentSkylander)
 
+    if (req.session.account) {
+        const user = await db.get(`SELECT * FROM users WHERE users.username = ?`, [req.session.account])
+        console.log(req.session.account)
+        let newscore = ((user.rounds * user.score) + req.session.guesses.length) / (user.rounds + 1)
+        let newrounds = user.rounds + 1
+        await db.all(`UPDATE users SET rounds = ?, score = ? WHERE users.username = ?`, [newrounds, newscore, req.session.account])
+    }
+
     res.render("winscreen.njk", {
         current: currentSkylander,
         guesses: req.session.guesses
     })
-
-    if (req.session.account) {
-        const user = await db.all(`SELECT * FROM users`)
-        let score = user[0].rounds * user[0].score
-        await db.all(`INSERT INTO users (rounds, score) VALUES (?, ?)`, [user[0].rounds + 1, (score + req.session.guesses.length) / user[0].rounds + 1])
-    }
 })
 
-app.get("/acount", (req, res) => {
-    res.render("acount.njk")
+app.get("/account", (req, res) => {
+    res.render("account.njk")
 })
 
-app.get("/acount/signup", (req, res) => {
+app.get("/account/signup", (req, res) => {
     res.render("signup.njk")    
 })
 
-app.post("/acount/signup", async (req, res) => {
+app.post("/account/signup", async (req, res) => {
     const username = req.body.username
     const password = req.body.password
     const [user] = await db.all('SELECT * FROM users WHERE users.username = ?', [username])
     if (user) {
-        res.redirect("/acount")
+        res.redirect("/account")
     }
     bcrypt.hash(password, 10, async function (err, hash) {
         await db.all(`INSERT INTO users (username, password, rounds, score) VALUES (?, ?, ?, ?)`, [username, hash, "0", "0"])
@@ -136,11 +140,11 @@ app.post("/acount/signup", async (req, res) => {
     })
 })
 
-app.get("/acount/signin", (req, res) => {
+app.get("/account/signin", (req, res) => {
     res.render("signin.njk")
 })
 
-app.post("/acount/signin", async (req, res) => {
+app.post("/account/signin", async (req, res) => {
     const username = req.body.username
     const password = req.body.password
     const [dbHash] = await db.all('SELECT users.password FROM users WHERE users.username = ?', [username])

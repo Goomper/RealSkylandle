@@ -165,8 +165,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         window.open("https://skylanderscharacterlist.com/")
     })
 
-    const acountbutton = document.getElementById("acountbutton")
-    acountbutton.addEventListener("click", async () => {
-        window.location.href = "../acount"
+    const accountbutton = document.getElementById("accountbutton")
+    accountbutton.addEventListener("click", async () => {
+        window.location.href = "../account"
     })
 })
